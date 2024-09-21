@@ -53,6 +53,7 @@ In 2015-01-04, the temperature was higher than the previous day (20 -> 30).
 
 
 # Write your MySQL query statement below
+ 
 select w1.id as id
 from weather w1 inner join weather w2
 on w1.temperature>w2.temperature
